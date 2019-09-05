@@ -955,20 +955,22 @@
 </table>
 <script>
     const $ = (s, c = document) => c.querySelector(s);
-    const $$ = (s, c = document) => c.querySelectorAll(s);
+    const $$ = (s, c = document) => [...c.querySelectorAll(s)];
+    const returnTrue = () => true;
+    const toggleRows = (rows, filter) => {
+        rows.forEach((row) => {
+            row.classList.toggle("hide", !filter(row));
+        });
+    };
     const update = () => {
         const userInput = $('#enemy-name').value.trim();
         const filter = userInput ?
-            row => [...$$('td', row)].some(td => td.textContent.includes(userInput)) :
-            () => true;
+            row => $$('td', row).some(td => td.textContent.includes(userInput)) :
+            returnTrue;
 
-        const enemyRows = $$('#enemy-table tr:nth-child(n + 2)');
+        toggleRows($$('#enemy-table tr:nth-child(n + 2)'), filter);
 
-        enemyRows.forEach((row) => {
-            row.classList.toggle("hide", !filter(row));
-        });
-
-        const enemies = new Set([...$$('#enemy-table tr:nth-child(n + 2):not(.hide) td:nth-child(4)')].map(td => td.textContent));
+        const enemies = new Set($$('#enemy-table tr:nth-child(n + 2):not(.hide) td:nth-child(4)').map(td => td.textContent));
         const stageEnemyFilter = row => {
             const stageEnemies = $('td:nth-child(4)', row).textContent.split('、');
             return stageEnemies.some(e => enemies.has(e));
@@ -976,12 +978,13 @@
 
         const chapterOption = $('#chapter-filter').value;
         const stageChapterFilter = chapterOption == 'all' ?
-            () => true :
+            returnTrue :
             row => $('td:nth-child(1)', row).textContent.includes(chapterOption);
 
-        $$('#stage-table tr:nth-child(n + 2)').forEach((row) => {
-            row.classList.toggle('hide', !stageEnemyFilter(row) || !stageChapterFilter(row));
-        });
+        toggleRows(
+            $$('#stage-table tr:nth-child(n + 2)'),
+            (row) => stageEnemyFilter(row) && stageChapterFilter(row)
+        );
     };
     $('#enemy-lookup-form').addEventListener('submit', (ev) => {
         ev.preventDefault();
