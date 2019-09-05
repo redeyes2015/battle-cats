@@ -4,9 +4,24 @@
 .hide { display: none }
 </style>
 <form id="enemy-lookup-form">
-    <input name="enemy-name" id="enemy-name" >
-    <button>Lookup</button>
-    <button type="reset">Clear</button>
+    <p> 敵人: <input name="enemy-name" id="enemy-name" >
+    <p> 關卡:
+        <select name="chapter-filter" id="chapter-filter">
+            <option value="all">不限
+            <option>傳說
+            <option>世界一
+            <option>世界二
+            <option>世界三
+            <option>末來一
+            <option>末來二
+            <option>末來三
+            <option>宇宙一
+            <option>宇宙二
+            <option>宇宙三
+        </select>
+    <p>
+        <button>Lookup</button>
+        <button type="reset">Clear</button>
 </form>
 <table border="1" id="enemy-table">
 <tr><th>序號</th><th>日文名稱</th><th>中文名稱</th><th>種類</th><th>屬性</th></tr>
@@ -954,12 +969,18 @@
         });
 
         const enemies = new Set([...$$('#enemy-table tr:nth-child(n + 2):not(.hide) td:nth-child(4)')].map(td => td.textContent));
-        const stageFilter = row => {
+        const stageEnemyFilter = row => {
             const stageEnemies = $('td:nth-child(4)', row).textContent.split('、');
             return stageEnemies.some(e => enemies.has(e));
         };
+
+        const chapterOption = $('#chapter-filter').value;
+        const stageChapterFilter = chapterOption == 'all' ?
+            () => true :
+            row => $('td:nth-child(1)', row).textContent.includes(chapterOption);
+
         $$('#stage-table tr:nth-child(n + 2)').forEach((row) => {
-            row.classList.toggle('hide', !stageFilter(row));
+            row.classList.toggle('hide', !stageEnemyFilter(row) || !stageChapterFilter(row));
         });
     };
     $('#enemy-lookup-form').addEventListener('submit', (ev) => {
@@ -967,5 +988,6 @@
         update()
     });
     $('#enemy-lookup-form').addEventListener('reset', () => setTimeout(update, 0));
+
     update();
 </script>
