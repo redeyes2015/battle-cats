@@ -4,7 +4,9 @@
 .hide { display: none }
 </style>
 <form id="enemy-lookup-form">
-    <p> 敵人: <input name="enemy-name" id="enemy-name" >
+    <p> 敵人1: <input name="enemy-name1" id="enemy-name1" >
+    <p> 敵人2: <input name="enemy-name2" id="enemy-name2" >
+    <p> 敵人3: <input name="enemy-name3" id="enemy-name3" >
     <p> 關卡:
         <select name="chapter-filter" id="chapter-filter">
             <option value="all">不限
@@ -964,10 +966,14 @@
         });
     };
     const update = () => {
-        const userInput = $('#enemy-name').value.trim();
-        const filter = userInput ?
-            row => $$('td', row).some(td => td.textContent.includes(userInput)) :
-            returnTrue;
+        const enemyInputs = $$('input[name^="enemy-name"]');
+        const findingEnemies = enemyInputs.map(input => input.value.trim())
+            .filter(enemyName => enemyName.length > 0);
+        const filter = findingEnemies.length == 0 ?
+            returnTrue :
+            row => $$('td', row).some(td => {
+                return findingEnemies.some(enemy => td.textContent.includes(enemy))
+            });
 
         toggleRows($$('#enemy-table tr:nth-child(n + 2)'), filter);
 
