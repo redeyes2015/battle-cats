@@ -1,0 +1,1185 @@
+[
+  {
+    "index": 2,
+    "jpName": "わんこ",
+    "twName": "狗仔",
+    "id": "白狗",
+    "trait": "白"
+  },
+  {
+    "index": 3,
+    "jpName": "にょろ",
+    "twName": "扭扭蛇",
+    "id": "白蛇",
+    "trait": "白"
+  },
+  {
+    "index": 4,
+    "jpName": "例のヤツ",
+    "twName": "團結筷子幫",
+    "id": "白三小人",
+    "trait": "白"
+  },
+  {
+    "index": 5,
+    "jpName": "カバちゃん",
+    "twName": "河馬將",
+    "id": "白河馬",
+    "trait": "白"
+  },
+  {
+    "index": 6,
+    "jpName": "ブタヤロウ",
+    "twName": "豬野郎",
+    "id": "紅豬",
+    "trait": "紅"
+  },
+  {
+    "index": 7,
+    "jpName": "ジャッキー・ペン",
+    "twName": "企鵝大哥",
+    "id": "白企鵝",
+    "trait": "白"
+  },
+  {
+    "index": 8,
+    "jpName": "ゴリさん",
+    "twName": "大猩猩",
+    "id": "白猩猩",
+    "trait": "白"
+  },
+  {
+    "index": 9,
+    "jpName": "メェメェ",
+    "twName": "咩咩",
+    "id": "白羊",
+    "trait": "白"
+  },
+  {
+    "index": 10,
+    "jpName": "ゴマさま",
+    "twName": "斑海豹桑",
+    "id": "紅海豹",
+    "trait": "紅"
+  },
+  {
+    "index": 11,
+    "jpName": "パオン",
+    "twName": "澎湃",
+    "id": "白大象",
+    "trait": "白"
+  },
+  {
+    "index": 12,
+    "jpName": "カ・ンガリュ",
+    "twName": "袋拳",
+    "id": "白袋鼠",
+    "trait": "白"
+  },
+  {
+    "index": 13,
+    "jpName": "一角くん",
+    "twName": "一角君",
+    "id": "紅犀牛",
+    "trait": "紅"
+  },
+  {
+    "index": 14,
+    "jpName": "クマ先生",
+    "twName": "熊熊老師",
+    "id": "白熊",
+    "trait": "白"
+  },
+  {
+    "index": 15,
+    "jpName": "ワニック",
+    "twName": "鱷魚宅宅",
+    "id": "白鱷魚",
+    "trait": "白"
+  },
+  {
+    "index": 16,
+    "jpName": "ウサ銀",
+    "twName": "臭老兔",
+    "id": "紅兔",
+    "trait": "紅"
+  },
+  {
+    "index": 17,
+    "jpName": "リッスントゥミー",
+    "twName": "松鼠阿嘎",
+    "id": "白松鼠",
+    "trait": "白"
+  },
+  {
+    "index": 18,
+    "jpName": "ブラックマ",
+    "twName": "黑熊",
+    "id": "黑熊",
+    "trait": "黑"
+  },
+  {
+    "index": 19,
+    "jpName": "赤羅我王",
+    "twName": "赤面歌王",
+    "id": "紅臉君",
+    "trait": "紅 / 漂浮"
+  },
+  {
+    "index": 20,
+    "jpName": "カオル君",
+    "twName": "臉君",
+    "id": "白臉君",
+    "trait": "漂浮"
+  },
+  {
+    "index": 23,
+    "jpName": "カンバン娘",
+    "twName": "看板小妹",
+    "id": "15分鐘舉牌",
+    "trait": "白"
+  },
+  {
+    "index": 24,
+    "jpName": "ガガガガ",
+    "twName": "蛾蛾蛾蛾",
+    "id": "白蛾",
+    "trait": "漂浮"
+  },
+  {
+    "index": 25,
+    "jpName": "悪の帝王ニャンダム",
+    "twName": "惡之帝王貓彈",
+    "id": "紅帝王",
+    "trait": "紅"
+  },
+  {
+    "index": 26,
+    "jpName": "ぶんぶん先生",
+    "twName": "噴噴老師",
+    "id": "白噴噴",
+    "trait": "漂浮"
+  },
+  {
+    "index": 33,
+    "jpName": "師匠",
+    "twName": "師匠",
+    "id": "白食蟻獸",
+    "trait": "白"
+  },
+  {
+    "index": 34,
+    "jpName": "ダチョウ同好会",
+    "twName": "鴕鳥愛美惠",
+    "id": "白鴕鳥",
+    "trait": "白"
+  },
+  {
+    "index": 35,
+    "jpName": "フルぼっこ",
+    "twName": "破壞一族",
+    "id": "白海獺",
+    "trait": "白"
+  },
+  {
+    "index": 36,
+    "jpName": "コアラッキョ",
+    "twName": "無尾熊球",
+    "id": "白無尾熊",
+    "trait": "白"
+  },
+  {
+    "index": 37,
+    "jpName": "こぶへい",
+    "twName": "駝背",
+    "id": "白駱駝",
+    "trait": "白"
+  },
+  {
+    "index": 38,
+    "jpName": "アヒルンルン",
+    "twName": "鴨子倫倫",
+    "id": "白鴨子",
+    "trait": "白"
+  },
+  {
+    "index": 39,
+    "jpName": "まゆげどり",
+    "twName": "眉毛鳥",
+    "id": "白貓頭鷹",
+    "trait": "漂浮"
+  },
+  {
+    "index": 40,
+    "jpName": "イノシャシ",
+    "twName": "獅豬",
+    "id": "紅山豬",
+    "trait": "紅"
+  },
+  {
+    "index": 41,
+    "jpName": "ナマルケモルル",
+    "twName": "樹懶賴",
+    "id": "白樹懶",
+    "trait": "白"
+  },
+  {
+    "index": 42,
+    "jpName": "ナカイくん",
+    "twName": "粥董",
+    "id": "白馴鹿",
+    "trait": "白"
+  },
+  {
+    "index": 43,
+    "jpName": "だっふんど",
+    "twName": "拉腸狗",
+    "id": "白臘腸狗",
+    "trait": "白"
+  },
+  {
+    "index": 44,
+    "jpName": "セレブ",
+    "twName": "貴賓",
+    "id": "白貴賓狗",
+    "trait": "白"
+  },
+  {
+    "index": 45,
+    "jpName": "ハイ・エナジー",
+    "twName": "鬣狼",
+    "id": "白狼",
+    "trait": "白"
+  },
+  {
+    "index": 46,
+    "jpName": "ダディ",
+    "twName": "瀟灑哥",
+    "id": "杜賓狗",
+    "trait": "白"
+  },
+  {
+    "index": 47,
+    "jpName": "ウルフとウルルン",
+    "twName": "狼與少女",
+    "id": "狼妹",
+    "trait": "白"
+  },
+  {
+    "index": 48,
+    "jpName": "殺意のわんこ",
+    "twName": "殺意狗",
+    "id": "黑狗",
+    "trait": "黑"
+  },
+  {
+    "index": 49,
+    "jpName": "メタルカバちゃん",
+    "twName": "鋼鐵河馬將",
+    "id": "鋼鐵河馬",
+    "trait": "鋼鐵"
+  },
+  {
+    "index": 50,
+    "jpName": "エリザベス2世",
+    "twName": "伊麗莎白2世",
+    "id": "紅皇冠豬",
+    "trait": "紅"
+  },
+  {
+    "index": 51,
+    "jpName": "赤井ブン太郎",
+    "twName": "赤井噴太郎",
+    "id": "紅噴噴",
+    "trait": "紅 / 漂浮"
+  },
+  {
+    "index": 52,
+    "jpName": "ブラックブンブン",
+    "twName": "黑色噴噴",
+    "id": "黑噴噴",
+    "trait": "黑 / 漂浮"
+  },
+  {
+    "index": 53,
+    "jpName": "ブラッゴリ",
+    "twName": "黑猩猩",
+    "id": "黑猩猩",
+    "trait": "黑"
+  },
+  {
+    "index": 54,
+    "jpName": "シャドウボクサー",
+    "twName": "影子拳擊手",
+    "id": "黑袋鼠",
+    "trait": "黑"
+  },
+  {
+    "index": 55,
+    "jpName": "クロサワ監督",
+    "twName": "黑澤導演",
+    "id": "黑帝王",
+    "trait": "黑"
+  },
+  {
+    "index": 56,
+    "jpName": "超メタルカバちゃん",
+    "twName": "超級鋼鐵河馬將",
+    "id": "紫電河馬",
+    "trait": "鋼鐵"
+  },
+  {
+    "index": 58,
+    "jpName": "メタルサイボーグ",
+    "twName": "鋼鐵犀一角",
+    "id": "鋼鐵犀牛",
+    "trait": "鋼鐵"
+  },
+  {
+    "index": 59,
+    "jpName": "メタックマ",
+    "twName": "鋼鐵熊",
+    "id": "鋼鐵熊",
+    "trait": "鋼鐵"
+  },
+  {
+    "index": 60,
+    "jpName": "メタルカオル君",
+    "twName": "鋼鐵臉君",
+    "id": "鋼鐵臉君",
+    "trait": "鋼鐵"
+  },
+  {
+    "index": 61,
+    "jpName": "メタルゴマさま",
+    "twName": "鋼鐵斑海豹桑",
+    "id": "鋼鐵海豹",
+    "trait": "鋼鐵"
+  },
+  {
+    "index": 66,
+    "jpName": "レッドサイクロン",
+    "twName": "赤色旋風",
+    "id": "紅渦",
+    "trait": "紅 / 漂浮"
+  },
+  {
+    "index": 71,
+    "jpName": "ホワイトサイクロン",
+    "twName": "白色旋風",
+    "id": "白渦",
+    "trait": "漂浮"
+  },
+  {
+    "index": 72,
+    "jpName": "ブラックサイクロン",
+    "twName": "黑色旋風",
+    "id": "黑渦",
+    "trait": "黑 / 漂浮"
+  },
+  {
+    "index": 73,
+    "jpName": "メタルサイクロン",
+    "twName": "鋼鐵旋風",
+    "id": "鐵渦",
+    "trait": "鋼鐵"
+  },
+  {
+    "index": 114,
+    "jpName": "エンジェルサイクロン",
+    "twName": "天使旋風",
+    "id": "天渦",
+    "trait": "天使"
+  },
+  {
+    "index": 115,
+    "jpName": "天使カバちゃん",
+    "twName": "河馬將天使",
+    "id": "天使河馬",
+    "trait": "天使"
+  },
+  {
+    "index": 116,
+    "jpName": "天使ガブリエル",
+    "twName": "加百列天使",
+    "id": "天使狗",
+    "trait": "天使"
+  },
+  {
+    "index": 117,
+    "jpName": "天使ゴンザレス",
+    "twName": "落猩天使",
+    "id": "天使猩猩",
+    "trait": "天使"
+  },
+  {
+    "index": 118,
+    "jpName": "天使愛好家",
+    "twName": "天使愛好家",
+    "id": "天使舉牌員",
+    "trait": "鋼鐵"
+  },
+  {
+    "index": 119,
+    "jpName": "カベわんこ",
+    "twName": "壁犬",
+    "id": "白牆狗",
+    "trait": "白"
+  },
+  {
+    "index": 120,
+    "jpName": "赤毛のにょろ",
+    "twName": "紅髮扭扭蛇",
+    "id": "紅蛇",
+    "trait": "紅"
+  },
+  {
+    "index": 121,
+    "jpName": "マンボーグ鈴木",
+    "twName": "生化魚鈴木",
+    "id": "天使翻車魚",
+    "trait": "天使"
+  },
+  {
+    "index": 125,
+    "jpName": "ド鳩・サブ・レー",
+    "twName": "背負.和平.鴿",
+    "id": "白鴿",
+    "trait": "漂浮"
+  },
+  {
+    "index": 126,
+    "jpName": "ブラッコ",
+    "twName": "黑色破壞一族",
+    "id": "黑海獺",
+    "trait": "黑"
+  },
+  {
+    "index": 127,
+    "jpName": "天使スレイプニール",
+    "twName": "天使斯雷普尼爾",
+    "id": "天使馬",
+    "trait": "天使"
+  },
+  {
+    "index": 148,
+    "jpName": "はぐれたヤツ",
+    "twName": "浪子漢",
+    "id": "推人單小人",
+    "trait": "白"
+  },
+  {
+    "index": 149,
+    "jpName": "メタルわんこ",
+    "twName": "鋼鐵狗仔",
+    "id": "鋼鐵狗",
+    "trait": "鋼鐵"
+  },
+  {
+    "index": 150,
+    "jpName": "コニャンダム",
+    "twName": "小戰士貓彈",
+    "id": "小紅帝王",
+    "trait": "紅"
+  },
+  {
+    "index": 151,
+    "jpName": "松 黒蔵",
+    "twName": "松黑藏",
+    "id": "黑大象",
+    "trait": "黑"
+  },
+  {
+    "index": 162,
+    "jpName": "天使ヒオコエル",
+    "twName": "天使小雞",
+    "id": "天使雞",
+    "trait": "天使"
+  },
+  {
+    "index": 169,
+    "jpName": "エイリワン",
+    "twName": "汪仔星人",
+    "id": "異星狗",
+    "trait": "異星"
+  },
+  {
+    "index": 170,
+    "jpName": "ワーニック",
+    "twName": "鱷星宅宅",
+    "id": "異星鱷魚",
+    "trait": "異星"
+  },
+  {
+    "index": 171,
+    "jpName": "カーバチャン",
+    "twName": "河馬星人",
+    "id": "異星河馬",
+    "trait": "異星"
+  },
+  {
+    "index": 172,
+    "jpName": "ゴマサーマン",
+    "twName": "斑海星人",
+    "id": "異星海豹",
+    "trait": "異星"
+  },
+  {
+    "index": 173,
+    "jpName": "レディ・ガ",
+    "twName": "蛾星女神",
+    "id": "異星蛾",
+    "trait": "漂浮 / 異星"
+  },
+  {
+    "index": 174,
+    "jpName": "デカメガネル",
+    "twName": "眼猴星人",
+    "id": "異星眼鏡猴",
+    "trait": "異星"
+  },
+  {
+    "index": 175,
+    "jpName": "ヤドカリー",
+    "twName": "寄居星人",
+    "id": "異星寄居蟹",
+    "trait": "異星"
+  },
+  {
+    "index": 176,
+    "jpName": "カヲルさん",
+    "twName": "臉星人",
+    "id": "異星臉君",
+    "trait": "漂浮 / 異星"
+  },
+  {
+    "index": 177,
+    "jpName": "クマンチュー",
+    "twName": "熊星人",
+    "id": "異星熊",
+    "trait": "異星"
+  },
+  {
+    "index": 178,
+    "jpName": "破壊生物クオリネン",
+    "twName": "破壞生物異星海蝶",
+    "id": "異星海蝶",
+    "trait": "漂浮 / 異星"
+  },
+  {
+    "index": 179,
+    "jpName": "イノヴァルカン",
+    "twName": "豬大哥",
+    "id": "異星山豬",
+    "trait": "異星"
+  },
+  {
+    "index": 180,
+    "jpName": "エリザベス56世",
+    "twName": "伊麗莎白56世",
+    "id": "異星皇冠豬",
+    "trait": "異星"
+  },
+  {
+    "index": 181,
+    "jpName": "スペースサイクロン",
+    "twName": "異星旋風",
+    "id": "異星渦",
+    "trait": "漂浮 / 異星"
+  },
+  {
+    "index": 182,
+    "jpName": "ギャラクシーニャンダム",
+    "twName": "銀河貓彈",
+    "id": "異星帝王",
+    "trait": "異星"
+  },
+  {
+    "index": 183,
+    "jpName": "反逆のヴァルキリー",
+    "twName": "反叛的瓦爾基麗貓",
+    "id": "異星瓦爾騎",
+    "trait": "漂浮 / 異星"
+  },
+  {
+    "index": 184,
+    "jpName": "ハサミーマン",
+    "twName": "異星袋拳",
+    "id": "異星袋鼠",
+    "trait": "異星"
+  },
+  {
+    "index": 185,
+    "jpName": "サイバーX",
+    "twName": "CyberX",
+    "id": "異星犀牛",
+    "trait": "異星"
+  },
+  {
+    "index": 186,
+    "jpName": "プドール夫人",
+    "twName": "異星貴賓",
+    "id": "異星貴賓狗",
+    "trait": "異星"
+  },
+  {
+    "index": 187,
+    "jpName": "教授",
+    "twName": "豪豬教授",
+    "id": "紅食蟻獸",
+    "trait": "紅"
+  },
+  {
+    "index": 207,
+    "jpName": "カルピンチョ",
+    "twName": "披著水豚皮的水豚",
+    "id": "紅水豚",
+    "trait": "紅"
+  },
+  {
+    "index": 208,
+    "jpName": "バトルコアラッキョ",
+    "twName": "戰鬥無尾熊球",
+    "id": "紅無尾熊",
+    "trait": "紅"
+  },
+  {
+    "index": 209,
+    "jpName": "ツバメンズ",
+    "twName": "燕梓南",
+    "id": "燕子",
+    "trait": "漂浮"
+  },
+  {
+    "index": 210,
+    "jpName": "よっちゃん",
+    "twName": "小魷",
+    "id": "異星魷魚",
+    "trait": "漂浮 / 異星"
+  },
+  {
+    "index": 211,
+    "jpName": "アルパッカ",
+    "twName": "羊駝背",
+    "id": "異星駱駝",
+    "trait": "異星"
+  },
+  {
+    "index": 212,
+    "jpName": "ヨキカナ",
+    "twName": "善哉",
+    "id": "異星樹懶",
+    "trait": "異星"
+  },
+  {
+    "index": 213,
+    "jpName": "パラサイトブンブン",
+    "twName": "寄生噴噴",
+    "id": "異星噴噴",
+    "trait": "漂浮 / 異星"
+  },
+  {
+    "index": 214,
+    "jpName": "暴走のネコムート",
+    "twName": "爆走姆特貓",
+    "id": "異星姆特",
+    "trait": "漂浮 / 異星"
+  },
+  {
+    "index": 234,
+    "jpName": "断罪天使クオリネル",
+    "twName": "斷罪天使海蝶",
+    "id": "天使海蝶",
+    "trait": "天使"
+  },
+  {
+    "index": 237,
+    "jpName": "ドリュウ",
+    "twName": "鼴小龍",
+    "id": "土撥鼠",
+    "trait": "白"
+  },
+  {
+    "index": 238,
+    "jpName": "ハリケーンサイクロン",
+    "twName": "颶風旋風",
+    "id": "風暴渦",
+    "trait": "漂浮"
+  },
+  {
+    "index": 256,
+    "jpName": "ミスターエンジェル",
+    "twName": "天使先生",
+    "id": "天使小人",
+    "trait": "天使"
+  },
+  {
+    "index": 257,
+    "jpName": "キョセーヌ",
+    "twName": "大嘴武哥",
+    "id": "黑大嘴鳥",
+    "trait": "紅 / 黑"
+  },
+  {
+    "index": 258,
+    "jpName": "タッちゃん",
+    "twName": "必殺達也",
+    "id": "黑海馬",
+    "trait": "黑"
+  },
+  {
+    "index": 260,
+    "jpName": "わんこずきんミーニャ",
+    "twName": "狗仔紅帽咪娜",
+    "id": "小紅帽",
+    "trait": "白"
+  },
+  {
+    "index": 263,
+    "jpName": "イノエンジェル",
+    "twName": "天使野豬",
+    "id": "天使山豬",
+    "trait": "天使"
+  },
+  {
+    "index": 268,
+    "jpName": "ヒカル",
+    "twName": "小光",
+    "id": "白燈籠魚",
+    "trait": "白"
+  },
+  {
+    "index": 269,
+    "jpName": "般若我王",
+    "twName": "般若我王",
+    "id": "紅般若",
+    "trait": "紅"
+  },
+  {
+    "index": 273,
+    "jpName": "森の蜜子",
+    "twName": "森蜜子",
+    "id": "異星蜜蜂",
+    "trait": "漂浮 / 異星"
+  },
+  {
+    "index": 274,
+    "jpName": "ちびぶんぶん",
+    "twName": "小噴噴",
+    "id": "小白噴噴",
+    "trait": "漂浮"
+  },
+  {
+    "index": 282,
+    "jpName": "イノワール",
+    "twName": "黑暗野豬",
+    "id": "黑山豬",
+    "trait": "黑"
+  },
+  {
+    "index": 286,
+    "jpName": "ゾンビワン",
+    "twName": "不死狗仔",
+    "id": "不死狗",
+    "trait": "不死"
+  },
+  {
+    "index": 287,
+    "jpName": "にょろろん",
+    "twName": "不死扭扭蛇",
+    "id": "不死蛇",
+    "trait": "不死"
+  },
+  {
+    "index": 288,
+    "jpName": "カバタリアン",
+    "twName": "不死河馬將",
+    "id": "不死河馬",
+    "trait": "不死"
+  },
+  {
+    "index": 289,
+    "jpName": "トンシー",
+    "twName": "不死豬野郎",
+    "id": "不死豬",
+    "trait": "不死"
+  },
+  {
+    "index": 290,
+    "jpName": "ジャッキー・ペンZ",
+    "twName": "不死企鵝大哥Z",
+    "id": "不死企鵝",
+    "trait": "不死"
+  },
+  {
+    "index": 291,
+    "jpName": "ゴリ・ンジュ",
+    "twName": "不死大猩猩",
+    "id": "不死猩猩",
+    "trait": "不死"
+  },
+  {
+    "index": 292,
+    "jpName": "ブチゴマさま",
+    "twName": "不死斑海豹桑",
+    "id": "不死海豹",
+    "trait": "不死"
+  },
+  {
+    "index": 293,
+    "jpName": "スカルボクサー",
+    "twName": "不死袋拳",
+    "id": "不死袋鼠",
+    "trait": "不死"
+  },
+  {
+    "index": 294,
+    "jpName": "ワニボン",
+    "twName": "不死鱷魚",
+    "id": "不死鱷魚",
+    "trait": "不死"
+  },
+  {
+    "index": 295,
+    "jpName": "墓手太郎",
+    "twName": "墓手太郎",
+    "id": "不死墓碑男",
+    "trait": "不死"
+  },
+  {
+    "index": 296,
+    "jpName": "アンデッドサイクロン",
+    "twName": "不死旋風",
+    "id": "不死渦",
+    "trait": "不死"
+  },
+  {
+    "index": 305,
+    "jpName": "墓手花子",
+    "twName": "墓手花子",
+    "id": "不死墓碑女",
+    "trait": "不死"
+  },
+  {
+    "index": 306,
+    "jpName": "オオさん",
+    "twName": "不死大鯢",
+    "id": "不死大鯢",
+    "trait": "不死"
+  },
+  {
+    "index": 311,
+    "jpName": "ヒツギイヌ",
+    "twName": "棺材狗",
+    "id": "不死牆狗",
+    "trait": "不死"
+  },
+  {
+    "index": 312,
+    "jpName": "キャベロン",
+    "twName": "凹凸駝背",
+    "id": "不死駱駝",
+    "trait": "不死"
+  },
+  {
+    "index": 318,
+    "jpName": "犬武者 武蔵",
+    "twName": "犬武者武藏",
+    "id": "不死宮木",
+    "trait": "不死"
+  },
+  {
+    "index": 319,
+    "jpName": "亡者デブウ",
+    "twName": "亡者肥普",
+    "id": "肥普",
+    "trait": "不死"
+  },
+  {
+    "index": 320,
+    "jpName": "イルカ娘",
+    "twName": "海豚姑娘",
+    "id": "白海豚",
+    "trait": "白"
+  },
+  {
+    "index": 342,
+    "jpName": "イカ天",
+    "twName": "炸烏賊天使",
+    "id": "天使魷魚",
+    "trait": "天使"
+  },
+  {
+    "index": 356,
+    "jpName": "ネコ仙人",
+    "twName": "貓咪仙人",
+    "id": "貓仙人",
+    "trait": "白"
+  },
+  {
+    "index": 357,
+    "jpName": "ケロ助",
+    "twName": "蛙助",
+    "id": "白青蛙",
+    "trait": "白"
+  },
+  {
+    "index": 362,
+    "jpName": "エリートエイリワン",
+    "twName": "精英汪仔星人",
+    "id": "宇宙狗",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 363,
+    "jpName": "スター・ペン",
+    "twName": "宙星.企鵝大哥",
+    "id": "宇宙企鵝",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 364,
+    "jpName": "グレゴリー将軍",
+    "twName": "宙猩將軍",
+    "id": "宇宙猩猩",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 365,
+    "jpName": "ハハパオン",
+    "twName": "澎湃媽",
+    "id": "宇宙大象",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 366,
+    "jpName": "巨匠",
+    "twName": "巨匠",
+    "id": "宇宙食蟻獸",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 367,
+    "jpName": "キャプテン・モグー",
+    "twName": "鼴鼠隊長",
+    "id": "宇宙土撥鼠",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 368,
+    "jpName": "スペースマンボルグ",
+    "twName": "宙星生化魚",
+    "id": "宇宙翻車魚",
+    "trait": "漂浮 / 異星戰士"
+  },
+  {
+    "index": 369,
+    "jpName": "神さま",
+    "twName": "神",
+    "id": "貓神1",
+    "trait": "漂浮"
+  },
+  {
+    "index": 377,
+    "jpName": "大夢くん",
+    "twName": "大夢君",
+    "id": "天使大嘴鳥",
+    "trait": "天使 / 異星戰士"
+  },
+  {
+    "index": 379,
+    "jpName": "スーパースペースサイクロン",
+    "twName": "超級異星旋風",
+    "id": "宇宙渦",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 381,
+    "jpName": "天使ブッタ",
+    "twName": "飛天小豬",
+    "id": "天使豬",
+    "trait": "天使"
+  },
+  {
+    "index": 382,
+    "jpName": "謎仮面のウララー",
+    "twName": "吉娃娃伯爵",
+    "id": "吉娃娃",
+    "trait": "白"
+  },
+  {
+    "index": 383,
+    "jpName": "猫塚かりん",
+    "twName": "神秘假面烏拉拉",
+    "id": "烏拉拉",
+    "trait": "白"
+  },
+  {
+    "index": 389,
+    "jpName": "ヒウマ",
+    "twName": "火馬",
+    "id": "紅海馬",
+    "trait": "紅"
+  },
+  {
+    "index": 390,
+    "jpName": "ウルトラメェメェ",
+    "twName": "激動咩咩",
+    "id": "宇宙羊",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 407,
+    "jpName": "レジェンドブンブンΩ",
+    "twName": "傳奇噴噴Ω",
+    "id": "機器噴噴",
+    "trait": "漂浮"
+  },
+  {
+    "index": 408,
+    "jpName": "真レジェンドブンブン",
+    "twName": "真傳奇噴噴",
+    "id": "古代噴噴",
+    "trait": "古代種"
+  },
+  {
+    "index": 409,
+    "jpName": "古代わんこ",
+    "twName": "古代狗仔",
+    "id": "古代狗",
+    "trait": "古代種"
+  },
+  {
+    "index": 414,
+    "jpName": "イングリッス",
+    "twName": "古代松鼠",
+    "id": "古代松鼠",
+    "trait": "古代種"
+  },
+  {
+    "index": 415,
+    "jpName": "コライノくん",
+    "twName": "古代犀聖",
+    "id": "古代犀牛",
+    "trait": "古代種"
+  },
+  {
+    "index": 416,
+    "jpName": "超町長",
+    "twName": "古代蠶舌蛾",
+    "id": "古代蛾",
+    "trait": "漂浮 / 古代"
+  },
+  {
+    "index": 419,
+    "jpName": "マナブくん",
+    "twName": "快豚星人",
+    "id": "宇宙海豚",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 420,
+    "jpName": "ゲコック",
+    "twName": "食蛙星人",
+    "id": "宇宙青蛙",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 421,
+    "jpName": "神さま（本気）",
+    "twName": "神(認真)",
+    "id": "神2",
+    "trait": "白"
+  },
+  {
+    "index": 422,
+    "jpName": "ダテメガネル",
+    "twName": "古代眼鏡猴人",
+    "id": "古代眼鏡猴",
+    "trait": "古代種"
+  },
+  {
+    "index": 425,
+    "jpName": "古我王",
+    "twName": "古頭王",
+    "id": "古代臉君",
+    "trait": "漂浮 / 古代"
+  },
+  {
+    "index": 426,
+    "jpName": "オールドリー",
+    "twName": "鴕鳥老黛麗",
+    "id": "古代鴕鳥",
+    "trait": "古代種"
+  },
+  {
+    "index": 429,
+    "jpName": "クマンケン",
+    "twName": "科熊怪人",
+    "id": "不死熊",
+    "trait": "不死"
+  },
+  {
+    "index": 430,
+    "jpName": "シノシシ",
+    "twName": "玉米鬚豬",
+    "id": "不死山豬",
+    "trait": "不死"
+  },
+  {
+    "index": 433,
+    "jpName": "ユメミちゃん",
+    "twName": "愛作夢的貘",
+    "id": "黑白貘",
+    "trait": "黑"
+  },
+  {
+    "index": 445,
+    "jpName": "ミニスターサイクロン",
+    "twName": "邪星小旋風",
+    "id": "小宇宙渦",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 446,
+    "jpName": "チンアナ5兄弟",
+    "twName": "花園鰻5兄弟",
+    "id": "宇宙鰻魚",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 447,
+    "jpName": "ルーパールーパー",
+    "twName": "六角龍邪",
+    "id": "宇宙大鯢",
+    "trait": "異星戰士"
+  },
+  {
+    "index": 448,
+    "jpName": "ファイナルギガグランド神さま",
+    "twName": "終極千兆宏偉神",
+    "id": "貓神3",
+    "trait": "白"
+  },
+  {
+    "index": 452,
+    "jpName": "土偶戦士ドグ丸",
+    "twName": "土偶喵丸",
+    "id": "土偶",
+    "trait": "古代種"
+  },
+  {
+    "index": 470,
+    "jpName": "チキランラン",
+    "twName": "不死小雞",
+    "id": "不死雞",
+    "trait": "不死"
+  },
+  {
+    "index": 471,
+    "jpName": "スリラーズ",
+    "twName": "驚悚幫",
+    "id": "不死三小人",
+    "trait": "不死"
+  }
+]

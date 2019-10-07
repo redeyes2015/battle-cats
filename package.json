@@ -1,0 +1,8 @@
+{
+  "scripts": {
+      "dl-json": "node bin/dl-json.js"
+  },
+  "dependencies": {
+    "google-spreadsheet-to-json": "^1.0.0"
+  }
+}
