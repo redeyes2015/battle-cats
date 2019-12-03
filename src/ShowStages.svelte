@@ -27,6 +27,11 @@
         .filter(([count]) => count > 0)
         .sort(([countA], [countB]) => countB - countA);
 </script>
+<style>
+.matched {
+    color: red;
+}
+</style>
 
 {#each stageGroupEntries as stageEntry}
     <p>Count {stageEntry[0]}</p>
@@ -40,7 +45,7 @@
             {#each stage.enemies as enemyId, index}
                 {index === 0 ? '' : '、' }{
                 #if selectedEnemies.some(e => e.id == enemyId)
-                    }<b>{enemyId}</b>{
+                    }<span class="matched">{enemyId}</span>{
                 :else
                     }<span>{enemyId}</span>{
                 /if}
