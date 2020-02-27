@@ -3,8 +3,7 @@
 
     export let allEnemies = [];
     export let selectedEnemies = [];
-
-    let searchText = '';
+    export let searchText = '';
 
     $: shownEnemies = searchText === '' ?
         [] :

@@ -4,7 +4,8 @@
     import ShowStages from './ShowStages.svelte';
 
     let selectedEnemies = [];
-    let selectedChapter = 'all'
+    let selectedChapter = 'all';
+    let searchText = '';
 
     function select ({id}) {
         const newPick = enemies.find(e => e.id == id);
@@ -15,10 +16,17 @@
     function deselect (enemy) {
         selectedEnemies = selectedEnemies.filter(e => e.id != enemy.id);
     }
+    function clearSelect () {
+        selectedEnemies = [];
+        selectedChapter = 'all';
+        searchText = '';
+    }
+
 </script>
 
 <EnemySelector allEnemies="{enemies}"
                {selectedEnemies}
+               bind:searchText={searchText}
                on:select="{(event) => select(event.detail)}"
                on:deselect="{(event) => deselect(event.detail)}" />
 
@@ -43,6 +51,10 @@
     <option>宇宙二</option>
     <option>宇宙三</option>
 </select>
+</p>
+
+<p>
+    <button role="button" on:click="{clearSelect}">清除</button>
 </p>
 
 <ShowStages {selectedEnemies} {selectedChapter} />
