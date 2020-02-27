@@ -1,5 +1,4 @@
 <script>
-    import {createEventDispatcher} from 'svelte';
 
     export let allEnemies = [];
     export let selectedEnemies = [];
@@ -15,7 +14,15 @@
             selected: selectedEnemies.some(s => s.id == e.id)
         }));
 
-    const dispatch = createEventDispatcher();
+    function select ({id}) {
+        const newPick = allEnemies.find(e => e.id == id);
+        if (selectedEnemies.every(e => e.id != id)) {
+            selectedEnemies = [...selectedEnemies, newPick];
+        }
+    }
+    function deselect ({id}) {
+        selectedEnemies = selectedEnemies.filter(e => e.id != id);
+    }
 </script>
 
 <label for="find-enemy">敵人: </label><input name="find-enemy" bind:value={searchText} />
@@ -30,9 +37,9 @@
         <td>{enemy.trait}</td>
         <td>
         {#if enemy.selected}
-            <button on:click="{() => dispatch('deselect', enemy) }">&#x2714;&#xfe0f;</button>
+            <button on:click="{() => deselect(enemy) }">&#x2714;&#xfe0f;</button>
         {:else}
-            <button on:click="{() => dispatch('select', enemy) }">Add</button>
+            <button on:click="{() => select(enemy) }">Add</button>
         {/if}
         </td>
     </tr>

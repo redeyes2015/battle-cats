@@ -7,28 +7,16 @@
     let selectedChapter = 'all';
     let searchText = '';
 
-    function select ({id}) {
-        const newPick = enemies.find(e => e.id == id);
-        if (selectedEnemies.every(e => e.id != id)) {
-            selectedEnemies = [...selectedEnemies, newPick];
-        }
-    }
-    function deselect (enemy) {
-        selectedEnemies = selectedEnemies.filter(e => e.id != enemy.id);
-    }
     function clearSelect () {
         selectedEnemies = [];
         selectedChapter = 'all';
         searchText = '';
     }
-
 </script>
 
 <EnemySelector allEnemies="{enemies}"
-               {selectedEnemies}
-               bind:searchText={searchText}
-               on:select="{(event) => select(event.detail)}"
-               on:deselect="{(event) => deselect(event.detail)}" />
+               bind:selectedEnemies={selectedEnemies}
+               bind:searchText={searchText} />
 
 {#if selectedEnemies.length > 0}
 <p>
