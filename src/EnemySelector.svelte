@@ -25,7 +25,7 @@
     }
 </script>
 
-<label for="find-enemy">敵人: </label><input name="find-enemy" bind:value={searchText} />
+<label for="find-enemy">敵人: </label><input id="find-enemy" bind:value={searchText} />
 
 <table border="1">
 {#each shownEnemies as enemy (enemy.index)}
