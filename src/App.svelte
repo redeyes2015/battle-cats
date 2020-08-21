@@ -4,12 +4,12 @@
     import ShowStages from './ShowStages.svelte';
 
     let selectedEnemies = [];
-    let selectedChapter = 'all';
+    let selectedChapter = '傳說';
     let searchText = '';
 
     function clearSelect () {
         selectedEnemies = [];
-        selectedChapter = 'all';
+        selectedChapter = '傳說';
         searchText = '';
     }
 </script>
@@ -17,7 +17,6 @@
 <p>
 <label for="chapter-select">關卡:</label>
 <select bind:value={selectedChapter} id="chapter-select" >
-    <option value="all">不限</option>
     <option>傳說</option>
     <option>世界一</option>
     <option>世界二</option>
